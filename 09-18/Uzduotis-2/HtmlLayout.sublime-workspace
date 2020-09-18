@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"is",
+				"instragram"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
 				"td",
 				"td\tTag"
 			],
@@ -52,13 +72,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<title>Lentele</title>\n\t<meta charset=\"utf-8\">\n</head>\n<body>\n\t<h1>Dydzio lentele</h1>\n\t<table>\n\t\t<tr>\n\t\t\t<th>Dydis</th>\n\t\t\t<th>Nugaros ilgis, cm</th>\n\t\t\t<th>Krutines apimtis, cm</th>\n\t\t\t<th>Svoris</th>\n\t\t\t<td>Dazniausiai pasitaikancios veisles</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>XS</th>\n\t\t\t<td>19-21</td>\n\t\t\t<td>26-28</td>\n\t\t\t<td>1-1.6kg</td>\n\t\t\t<td>Jorksyro terjerai, chihuahua, toiterjerai, kiti jauni suniukai</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>S</th>\n\t\t\t<td>23-25</td>\n\t\t\t<td>30-32</td>\n\t\t\t<td>1.7-2.5kg</td>\n\t\t\t<td>Maltos bisonai, Jorksyro terjerai, chihuahua, toiterjerai, nykstukiniai pudeliai, spicai, kiti jauni suniukai</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>M</th>\n\t\t\t<td>27-29</td>\n\t\t\t<td>34-36</td>\n\t\t\t<td>2.8-3.8kg</td>\n\t\t\t<td>Maltos bisonai, Jorksyro terjerai, toiterjerai, sitzu, spicai, nykstukiniai pudeliai</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>L</th>\n\t\t\t<td>31-33</td>\n\t\t\t<td>42-44</td>\n\t\t\t<td>4.5-6kg</td>\n\t\t\t<td>Maltos bisonai, Jorksyro terjerai, sitzu, Vakaru Skotijos baltieji terjerai</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>XL</th>\n\t\t\t<td>35-37</td>\n\t\t\t<td>47-49</td>\n\t\t\t<td>7-8kg</td>\n\t\t\t<td>Sitzu, Vakaru Skotijos baltieji terjerai</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>XXL</th>\n\t\t\t<td>39-41</td>\n\t\t\t<td>51-53</td>\n\t\t\t<td>9-10kg</td>\n\t\t\t<td></td>\n\t\t</tr>\n\t</table>\n</body>\n</html>",
-			"file": "/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-18/index.html",
-			"file_size": 1287,
-			"file_write_time": 132448806949685838,
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1287,
+				"buffer_size": 3687,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -96,10 +113,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-18"
+		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-18/Uzduotis-2"
 	],
 	"file_history":
 	[
+		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-11/Uzduotis-2/index2.html",
+		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-11/Uzduotis-2/index.html",
+		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-18/index.html",
 		"/home/moksleivis/Documents/Darbas/1.html",
 		"/home/moksleivis/Documents/Darbas/123.png",
 		"/home/moksleivis/Documents/Darbas/Index_1.html",
@@ -107,8 +127,6 @@
 		"/home/moksleivis/Documents/Darbas/index3.html",
 		"/home/moksleivis/Documents/Darbas/index2.html",
 		"/home/moksleivis/Documents/Gintare/index.html",
-		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-11/Uzduotis-2/index2.html",
-		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-11/Uzduotis-2/index.html",
 		"/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-11/index.html",
 		"/home/moksleivis/Documents/Zilvinas Cerkauskas/Uzduotis Basic Tags/index.html",
 		"/home/moksleivis/Documents/Zilvinas Cerkauskas/09-07/index.html",
@@ -155,19 +173,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/moksleivis/Documents/Zilvinas-Cerkauskas/09-18/index.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1287,
+						"buffer_size": 3687,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1017,
-								1017
+								3687,
+								3687
 							]
 						],
 						"settings":
@@ -175,7 +193,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 816.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -261,7 +279,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 147.0,
+	"side_bar_width": 158.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
