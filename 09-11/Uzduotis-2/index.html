@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML form</title>
+	<meta charset="utf-8">
+	<!--Formos Kurimas-->
+</head>
+<body>
+	<h1>Anketa</h1>
+	<form method="post">
+		<fieldset>
+			<input type="text" name="fname" placeholder="Vardas" required>
+		</fieldset>
+		<fieldset>
+			<input type="email" name="email" placeholder="Email"required>
+		</fieldset>
+		<fieldset>
+			<label>Akiu Spalva:</label>
+			<input type="color" name="color">
+		</fieldset>
+		<fieldset>
+			<select>
+				<option selected disabled>--Pasirinkite skyriu--</option>
+				<option>NET</option>
+				<option>Testuotojai</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<textarea placeholder="Jusu zinute"></textarea>
+		</fieldset>
+		<fieldset>
+			<label>Jusu CV</label>
+			<input type="file" name="file">
+		</fieldset>
+		<fieldset>
+			<label>Sutinku su salyga</label>
+			<input type="checkbox" name="checkbox">
+		</fieldset>
+		<fieldset>
+			<button type="submit">Saugoti</button>
+		</fieldset>
+	</form>
+</body>
+</html>
