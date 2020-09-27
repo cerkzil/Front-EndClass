@@ -1,0 +1,38 @@
+h1 {
+  align-content: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 12px;
+}
+h2 {
+  font-size: 30px;
+  text-align: right;
+}
+article p {
+  font-size: 20px;
+  text-align: justify;
+}
+footer {
+  font-size: 15px;
+  text-align: center;
+}
+
+.timesNewRoman {
+  font-family: Times New Roman;
+}
+
+.helvetica {
+  font-family: Helvetica;
+}
+
+.arial {
+  font-family: Arial;
+}
+
+.lucidaConsole {
+  font-family: Lucida Console;
+}
+
+.impact {
+  font-family: Impact;
+}
