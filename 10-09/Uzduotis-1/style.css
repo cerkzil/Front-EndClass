@@ -1,0 +1,50 @@
+@media (max-width: 500px){
+	aside{
+		background-color: lightblue;
+	}
+}
+@media (min-width: 500px){
+	aside{
+		background-color: green;
+	}
+}
+@media (max-width: 500px){
+	.article1{
+		float: none;
+	}
+}
+@media (min-width: 500px){
+	.article1{
+		float: left;
+	}
+}
+@media (max-width: 500px){
+	.article2{
+		float: none;
+	}
+}
+@media (min-width: 500px){
+	.article2{
+		float: right;
+	}
+}
+@media (max-width: 500px){
+	section{
+		float: none;
+	}
+}
+@media (min-width: 500px){
+	section{
+		float: left;
+	}
+}
+@media (max-width: 500px){
+	aside{
+		float: none;
+	}
+}
+@media (min-width: 500px){
+	aside{
+		float: right;
+	}
+}
