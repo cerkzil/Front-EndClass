@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>HTML Layout + BS4</title>
+</head>
+<body>
+	<div class="container" style="background-color: lightgrey;">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="png/logo.png" height="45" width="200" alt="Lietuvos suzuki asociacija">
+					</div>
+					<div class="col-sm-4 offset-sm-4">
+						<div class="container">
+							<div class="btn-group" role="group" aria-label="Basic example">
+								<button type="button" class="btn btn-secondary" style="margin-right: 10px;">Asociacija</button>
+								<button type="button" class="btn btn-secondary" style="margin-right: 10px;">Filosofija</button>
+								<button type="button" class="btn btn-secondary">Kontaktai</button>
+							</div>		
+							<div class="container">
+								<input type="text" name="search" placeholder="paieska">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="section2">
+				<ul class="nav nav-pills nav-fill" style="padding: 10px;">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Naujienos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Veikla</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Stovyklos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Mokytojai</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Straipsniai</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-7">
+						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="png/slideshow.png" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="png/slideshow.png" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="png/slideshow.png" alt="Third slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-5 align-self-center">
+						<div class="card" style="width: 100%;">
+							<div class="card-body">
+								<h5 class="card-title" style="border: thin; border-bottom-style: solid;">Artimiausi renginiai</h5>
+								<div class="list-group" style="margin-bottom: 10px;">
+									<a href="#" class="list-group-item list-group-item-action">Renginys</a>
+									<a href="#" class="list-group-item list-group-item-action">Renginys</a>
+									<a href="#" class="list-group-item list-group-item-action">Renginys</a>
+									<a href="#" class="list-group-item list-group-item-action">Renginys</a>
+								</div>
+								<div class="row justify-content-center">
+									<a href="#" class="btn-sm btn-primary">Registruotis i rengini</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="section1">
+					<div class="row justify-content-between">
+						<div class="col-sm-4 align-self-center"><h3>Naujienos</h3></div>
+						<div class="col-sm-3 align-self-center"><h4>Naujienu archivas</h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="container" style="padding: 20px;">
+				<div class="row">
+					<div class="col-sm">
+						<div class="card" style="width: 100%;">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<div class="container">
+									<div class="row">
+										<i class="tiny material-icons">date_range</i>
+										<h6 class="card-title">2017-08-10</h6>	
+									</div>
+								</div>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<div class="row justify-content-end">
+									<a href="#" class="btn-sm btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="card" style="width: 100%;">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<div class="container">
+									<div class="row">
+										<i class="tiny material-icons">date_range</i>
+										<h6 class="card-title">2017-08-10</h6>	
+									</div>
+								</div>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<div class="row justify-content-end">
+									<a href="#" class="btn-sm btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-sm">
+						<div class="card" style="width: 100%;">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<div class="container">
+									<div class="row">
+										<i class="tiny material-icons">date_range</i>
+										<h6 class="card-title">2017-08-10</h6>	
+									</div>
+								</div>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<div class="row justify-content-end">
+									<a href="#" class="btn-sm btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="card" style="width: 100%;">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<div class="container">
+									<div class="row">
+										<i class="tiny material-icons">date_range</i>
+										<h6 class="card-title">2017-08-10</h6>	
+									</div>
+								</div>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<div class="row justify-content-end">
+									<a href="#" class="btn-sm btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-sm-2">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<button type="button" class="btn btn-secondary" style="border-radius: 25px;">1</button>
+							<button type="button" class="btn btn-secondary" style="border-radius: 25px; margin-left: 2px;">2</button>
+							<button type="button" class="btn btn-secondary" style="border-radius: 25px; margin-left: 2px;">3</button>
+							<button type="button" class="btn btn-secondary" style="border-radius: 25px; margin-left: 2px;">4</button>
+							<button type="button" class="btn btn-secondary" style="border-radius: 25px; margin-left: 2px;">5</button>
+						</div>
+					</div>
+				</div>
+			</div>				
+			<div class="container">
+				<div class="section1">
+					<div class="row justify-content-between">
+						<div class="col-sm-4 align-self-center"><h3>Nuotrauku galerija</h3></div>
+						<div class="col-sm-3 align-self-center"><h4>Archivas</h4></div>
+					</div>
+				</div>
+				<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active" data-interval="2000">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-sm align-self-center"><img src="img/6.jpg" width="80%" alt="connect"></div>
+									<div class="col-sm align-self-center"><img src="img/1.jpg" width="80%" alt="connect"></div>
+									<div class="col-sm align-self-center"><img src="img/2.jpg" width="80%" alt="connect"></div>
+									<div class="col-sm align-self-center"><img src="img/5.jpg" width="80%" alt="connect"></div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-sm align-self-center"><img src="img/7.jpg" width="80%" alt="connect"></div>
+									<div class="col-sm align-self-center"><img src="img/3.jpg" width="80%" alt="connect"></div>
+									<div class="col-sm align-self-center"><img src="img/8.jpg" width="80%" alt="connect"></div>
+									<div class="col-sm align-self-center"><img src="img/4.jpg" width="80%" alt="connect"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-sm">
+							<div class="container">
+								<div class="section1">
+									<div class="row">
+										<div class="col-sm align-self-center"><h3>Bendradarbiaujame</h3></div>
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+										<div class="w-100"></div>
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+										<div class="col-sm" style="padding: 5px;"><a href="#"><img src="png/is.png" width="80%" alt="connect"></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm">
+							<div class="container">
+								<div class="section1">
+									<div class="row">
+										<div class="col-sm align-self-center"><h3>Naudingos nuorodos</h3></div>
+									</div>
+								</div>
+								<div class="container">
+									<ul>
+									<li><a href="#">www.link.com</a></li>
+									<li><a href="#">www.link.com</a></li>
+									<li><a href="#">www.link.com</a></li>
+									<li><a href="#">www.link.com</a></li>
+									<li><a href="#">www.link.com</a></li>
+									<li><a href="#">www.link.com</a></li>
+									<li><a href="#">www.link.com</a></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="section2">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-sm">
+							<h6>2015 m. Lietuvos suzuki asociacija</h6>
+						</div>
+						<div class="col-sm">
+							<div class="container">
+								<h6>Vaistines skg. 6,</h6>
+								<h6>Kaunas LT-44210</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
