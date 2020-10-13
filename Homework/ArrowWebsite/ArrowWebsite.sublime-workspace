@@ -4,16 +4,64 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"pad",
+				"padding-right\tproperty"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"sec",
+				"section-padding"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"ju",
+				"justify-content-between"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"col",
+				"col-sm"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"a",
+				"auto\tbackground-size"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
 				"c",
 				"container"
 			],
 			[
 				"d",
 				"div\tTag"
-			],
-			[
-				"a",
-				"alt\tAttr"
 			],
 			[
 				"al",
@@ -30,10 +78,6 @@
 			[
 				"colu",
 				"column-count\tproperty"
-			],
-			[
-				"pad",
-				"padding\tproperty"
 			],
 			[
 				"background",
@@ -68,10 +112,6 @@
 				"flex-direction\tproperty"
 			],
 			[
-				"padd",
-				"padding\tproperty"
-			],
-			[
 				"marg",
 				"margin-bottom\tproperty"
 			],
@@ -96,16 +136,8 @@
 				"background-color\tproperty"
 			],
 			[
-				"h",
-				"html\thtml"
-			],
-			[
 				"wh",
 				"width\tproperty"
-			],
-			[
-				"pa",
-				"padding-right\tproperty"
 			],
 			[
 				"bor",
@@ -118,10 +150,6 @@
 			[
 				"font",
 				"font-size\tproperty"
-			],
-			[
-				"text",
-				"text-align\tproperty"
 			],
 			[
 				"flo",
@@ -162,10 +190,6 @@
 			[
 				"fon",
 				"font-family\tproperty"
-			],
-			[
-				"col",
-				"color\tproperty"
 			],
 			[
 				"te",
@@ -215,7 +239,7 @@
 			"file": "custom.css",
 			"settings":
 			{
-				"buffer_size": 192,
+				"buffer_size": 444,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -224,7 +248,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2672,
+				"buffer_size": 4871,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -262,7 +286,7 @@
 	},
 	"expanded_folders":
 	[
-		"/home/moksleivis/Documents/CerkauskasZilvinas/FrontEndClass/Homework/ArrowWebsite"
+		"/C/Users/cerka/Documents/GitHub/FrontEndClass/Homework/ArrowWebsite"
 	],
 	"file_history":
 	[
@@ -360,7 +384,7 @@
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -400,15 +424,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 192,
+						"buffer_size": 444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								444,
+								444
 							]
 						],
 						"settings":
@@ -428,15 +452,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2672,
+						"buffer_size": 4871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								898,
-								898
+								2886,
+								2886
 							]
 						],
 						"settings":
@@ -445,7 +469,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1406.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -456,7 +480,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -493,7 +517,7 @@
 	"project": "ArrowWebsite.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 88.0
 	},
 	"save_all_on_build": true,
 	"select_file":

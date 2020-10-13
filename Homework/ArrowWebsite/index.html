@@ -9,66 +9,103 @@
 	<title>Arrow Website</title>
 </head>
 <body>
-	<div class="container" style="background-color: white;">
-		<header>
-			<div class="container">
-				<div class="row">
+	<div class="container-fluid p-0" style="background-color: white;">
+		<div class="container-fluid" style="background-image: url(img/hero1.png); background-size: cover; background-position: center;">
+			<header>
+				<div class="row justify-content-between">
 					<div class="col-sm-4">
 						<img src="img/pen.png" height="43" width="17" alt="Logo">
 					</div>
+					<div class="col-sm-4">
+						<nav>
+							<ul class="nav">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Services</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Portfolio</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Team</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Offices</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
 				</div>
-			</div>
-		</header>
-		<nav>
-			<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Services</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Portfolio</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Team</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#">Offices</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
-  </li>
-</ul>
-	</nav>
+			</header>
+		</div>
 		<main>
-			<div class="container">
- 			<img src="img/hero1.png" class="img-fuild w-100" alt="hero1">
-			</div>
-				<div class="container">
- 			<img src="img/hero2.png" class="img-fuild w-100" alt="hero2">
-			</div>
-				<div class="container">
- 			<img src="img/hero3.png" class="img-fuild w-100" alt="hero3">
-			</div>
-				<div class="container">
- 			<img src="img/hero4.png" class="img-fuild w-100" alt="hero4">
-			</div>
-		</main>
-		<footer>
-			<div class="section2">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-sm">
-							<h6>2015 m. Lietuvos suzuki asociacija</h6>
+			<section class="section-padding text-center">
+				<h2>OUR SERVICES</h2>
+				<div class="container pt-5">
+					<div class="row justify-content-around">
+						<div class="col-sm-3">
+							<img src="img/idea-icon.png" class="img-fluid" alt="idea-icon.png">
+							<h3>Idea</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 						</div>
-						<div class="col-sm">
-							<div class="container">
-								<h6>Vaistines skg. 6,</h6>
-								<h6>Kaunas LT-44210</h6>
+						<div class="col-sm-3">
+							<img src="img/design-icon.png" class="img-fluid" alt="design-icon.png">
+							<h3>Design</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						</div>
+						<div class="col-sm-3">
+							<img src="img/code-icon.png" class="img-fluid" alt="code-icon.png">
+							<h3>Code</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="container-fluid section-background" style="background-image: url(img/hero2.png);">
+				<div class="container text-center" style="display: unset;">
+					<div class="container">
+						<h2>OUR PORTFOLIO</h2>
+					</div>
+					<div class="container">
+						<div class="row no-gutters" style="background-color: #2980b9">
+							<div class="col" style="opacity: 0.6;">
+								<img src="img/p1.png" class="img-fluid" alt="p1.png">
+							</div>
+							<div class="col" style="opacity: 0.6;">
+								<img src="img/p2.png" class="img-fluid" alt="p2.png">
+							</div>
+							<div class="col" style="opacity: 0.6;">
+								<img src="img/p3.png" class="img-fluid" alt="p3.png">
+							</div>
+							<div class="w-100"></div>
+							<div class="col" style="opacity: 0.6;">
+								<img src="img/p4.png" class="img-fluid" alt="p4.png">
+							</div>
+							<div class="col" style="opacity: 0.6;">
+								<img src="img/p5.png" class="img-fluid" alt="p5.png">
+							</div>
+							<div class="col" style="opacity: 0.6;">
+								<img src="img/p6.png" class="img-fluid" alt="p6.png">
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</section>
+			<section class="section-padding">
+				<h2 class="text-center">OUR TEAM</h2>
+			</section>
+			<section class="container-fluid section-background" style="background-image: url(img/hero3.png);">
+				<h2>OUR OFFICES</h2>
+			</section>
+			<section class="section-padding">
+				<h2 class="text-center">OUR CLIENTS</h2>	
+			</section>
+			<section class="container-fluid section-background" style="background-image: url(img/hero4.png);">
+				<h2>CONTACT US</h2>
+			</section>
+		</main>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
