@@ -1,32 +1,100 @@
-header{
-	padding: 0px;
+/* Main CSS */
+#main{
+background-color: white;
 }
-.nav-link{
-	color: white;
+#start{
+background-image: url(img/hero1.png);
 }
-body, html {
-  height: 100%;
+#services{
+text-align: center;
 }
-main{
-	height: 100%;
+#portfolio{
+background-image: url(img/hero2.png);
+}
+#team{
+text-align: center;
+}
+#offices{
+background-image: url(img/hero3.png);
+text-align: center;
+}
+#clients{
+text-align: center;
+}
+#contact{
+background-image: url(img/hero4.png);
+text-align: center;
+}
+.projects{
+opacity: 0.6;
+background-repeat: no-repeat; 
+background-size: cover; 
 }
 .section-padding{
-padding: 110px 0;
+padding: 110px 15px;
 }
-.container-fluid{
-	height: 100%;
+.section-header{
+min-height: 100%;
+min-height: 100vh; 
+display: flex;
+background-size: cover; 
+background-position: center;
 }
 .section-background {
-  min-height: 100%;
-  min-height: 100vh; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-size: cover; 
-  background-position: center; 
+min-height: 100%;
+min-height: 100vh; 
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+background-size: cover; 
+background-position: center;
 }
-.overlay1{
-   background-color:#2980b9;
-   opacity:.4;
+/* Hover Functionality */
+.hoverBox:hover .hoverItem {
+  opacity: 1;
+}
+.hoverBox:hover .hoverImg {
+  opacity: 0.4;
+}
+.hoverFilter{
+	background-color: #2980b9; 
+	position: relative;
+	max-width: 263px;
+}
+.hoverBox {
+  position: relative;
+}
+.hoverItem {
+  opacity: 0;
+  padding: 0px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Random Styling */
+.nav-link{
+color: white;
+}
+.img-fluid{
+max-width: 100%;
+height: auto;
+}
+/* Fonts */
+p{
+font-family: 'Raleway';	
+font-size: 13px;
+}
+h4{
+font-family: 'Raleway';
+font-weight: bold;
+font-size: 20px;
+color: #616161;
+}
+h2{
+font-family: 'Raleway';
+font-weight: bold;
+font-size: 25px;
 }

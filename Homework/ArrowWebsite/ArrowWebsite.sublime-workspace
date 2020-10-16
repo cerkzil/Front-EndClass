@@ -4,6 +4,102 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"ju",
+				"justify-content-center"
+			],
+			[
+				"jus",
+				"justify-content-around"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"c",
+				"contain\tbackground-size"
+			],
+			[
+				"backgr",
+				"background-size\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"m",
+				"main\tTag"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"font",
+				"font-variant\tproperty"
+			],
+			[
+				"off",
+				"offset-1"
+			],
+			[
+				"col-sm",
+				"col-sm-3"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"im",
+				"img-fluid"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"col",
+				"col-sm-3"
+			],
+			[
+				"background",
+				"background-repeat\tproperty"
+			],
+			[
+				"se",
+				"section-background"
+			],
+			[
 				"padd",
 				"padding-right\tproperty"
 			],
@@ -24,40 +120,16 @@
 				"text-center"
 			],
 			[
-				"ju",
-				"justify-content-between"
-			],
-			[
 				"tex",
 				"text-center"
-			],
-			[
-				"col",
-				"col-sm"
 			],
 			[
 				"h",
 				"h2\tTag"
 			],
 			[
-				"a",
-				"auto\tbackground-size"
-			],
-			[
 				"backgroun",
 				"background-image\tproperty"
-			],
-			[
-				"s",
-				"style"
-			],
-			[
-				"pa",
-				"padding-left\tproperty"
-			],
-			[
-				"c",
-				"container"
 			],
 			[
 				"d",
@@ -68,10 +140,6 @@
 				"align-self-center"
 			],
 			[
-				"bac",
-				"background-color\tproperty"
-			],
-			[
 				"list",
 				"list-style\tproperty"
 			],
@@ -80,16 +148,8 @@
 				"column-count\tproperty"
 			],
 			[
-				"background",
-				"background-color\tproperty"
-			],
-			[
 				"b",
 				"bootstrap"
-			],
-			[
-				"max",
-				"max-width\tproperty"
 			],
 			[
 				"f",
@@ -148,16 +208,8 @@
 				"border-radius\tproperty"
 			],
 			[
-				"font",
-				"font-size\tproperty"
-			],
-			[
 				"flo",
 				"float\tproperty"
-			],
-			[
-				"min",
-				"min-height\tproperty"
 			],
 			[
 				"wid",
@@ -204,10 +256,6 @@
 				"tr\tTag"
 			],
 			[
-				"se",
-				"section\tTag"
-			],
-			[
 				"l",
 				"label\tTag"
 			],
@@ -239,7 +287,7 @@
 			"file": "custom.css",
 			"settings":
 			{
-				"buffer_size": 444,
+				"buffer_size": 1505,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -248,7 +296,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4871,
+				"buffer_size": 8177,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -270,7 +318,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 164.0,
 		"history":
 		[
 		]
@@ -384,7 +432,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -424,15 +472,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 444,
+						"buffer_size": 1505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								444,
-								444
+								1205,
+								850
 							]
 						],
 						"settings":
@@ -440,7 +488,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 684.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -452,15 +500,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4871,
+						"buffer_size": 8177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2886,
-								2886
+								4064,
+								4930
 							]
 						],
 						"settings":
@@ -469,7 +517,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1406.0,
+						"translation.y": 1881.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -480,7 +528,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -517,7 +565,7 @@
 	"project": "ArrowWebsite.sublime-project",
 	"replace":
 	{
-		"height": 88.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
