@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"col",
+				"col-12"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"background",
+				"background-size\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
 				"max",
-				"max-width\tproperty"
+				"max-height\tproperty"
 			],
 			[
 				"p",
@@ -44,10 +72,6 @@
 				"height\tproperty"
 			],
 			[
-				"c",
-				"contain\tbackground-size"
-			],
-			[
 				"backgr",
 				"background-size\tproperty"
 			],
@@ -58,10 +82,6 @@
 			[
 				"m",
 				"main\tTag"
-			],
-			[
-				"min",
-				"min-height"
 			],
 			[
 				"font",
@@ -86,14 +106,6 @@
 			[
 				"align",
 				"align-content\tproperty"
-			],
-			[
-				"col",
-				"col-sm-3"
-			],
-			[
-				"background",
-				"background-repeat\tproperty"
 			],
 			[
 				"se",
@@ -122,10 +134,6 @@
 			[
 				"tex",
 				"text-center"
-			],
-			[
-				"h",
-				"h2\tTag"
 			],
 			[
 				"backgroun",
@@ -164,16 +172,8 @@
 				"flex-start\talign-items"
 			],
 			[
-				"flex",
-				"flex-grow\tproperty"
-			],
-			[
 				"flex-",
 				"flex-direction\tproperty"
-			],
-			[
-				"marg",
-				"margin-bottom\tproperty"
 			],
 			[
 				"margi",
@@ -287,7 +287,7 @@
 			"file": "custom.css",
 			"settings":
 			{
-				"buffer_size": 1505,
+				"buffer_size": 1583,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -296,7 +296,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8177,
+				"buffer_size": 14336,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -472,15 +472,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1505,
+						"buffer_size": 1583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1205,
-								850
+								1328,
+								1170
 							]
 						],
 						"settings":
@@ -488,7 +488,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 684.0,
+						"translation.y": 969.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -500,15 +500,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8177,
+						"buffer_size": 14336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4064,
-								4930
+								7832,
+								7832
 							]
 						],
 						"settings":
@@ -517,7 +517,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1881.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -1,6 +1,6 @@
 /* Main CSS */
 #main{
-background-color: white;
+background-color: #fafcfe;
 }
 #start{
 background-image: url(img/hero1.png);
@@ -62,12 +62,19 @@ background-position: center;
 	position: relative;
 	max-width: 263px;
 }
+.hoverFilter2{
+	background-color: #2980b9; 
+	position: relative;
+	max-width: 375px;
+	max-height: 199px;
+}
 .hoverBox {
   position: relative;
 }
 .hoverItem {
   opacity: 0;
   padding: 0px;
+  margin: 0px;
   height: 100%;
   position: absolute;
   top: 50%;
@@ -77,10 +84,6 @@ background-position: center;
 /* Random Styling */
 .nav-link{
 color: white;
-}
-.img-fluid{
-max-width: 100%;
-height: auto;
 }
 /* Fonts */
 p{
