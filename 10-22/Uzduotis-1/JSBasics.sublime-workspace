@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"le",
+				"length"
+			],
+			[
 				"l",
 				"log"
 			],
@@ -111,6 +115,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 966,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 2117,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -144,10 +166,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/moksleivis/Documents/CerkauskasZilvinas/FrontEndClass/10-22/Uzduotis-1"
+		"/home/moksleivis/Documents/CerkauskasZilvinas/FrontEndClass/10-22/Uzduotis-1",
+		"/home/moksleivis/Documents/CerkauskasZilvinas/FrontEndClass/10-22/Uzduotis-1/js"
 	],
 	"file_history":
 	[
+		"/home/moksleivis/Documents/CerkauskasZilvinas/FrontEndClass/10-22/Uzduotis-1/js/app.js",
+		"/home/moksleivis/Documents/CerkauskasZilvinas/FrontEndClass/10-22/Uzduotis-1/JS/app.js",
 		"/home/moksleivis/Documents/Gintare/java basics/index.html",
 		"/home/moksleivis/Documents/Gintare/java basics/js/main.js",
 		"/home/moksleivis/Documents/index.html",
@@ -239,8 +264,66 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1968,
+								1968
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

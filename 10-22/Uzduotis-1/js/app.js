@@ -125,4 +125,14 @@ let catalog =
 },
 ];
 
-console.log(catalog[2].scifi[3]);
+//console.log(catalog[2].scifi);
+
+for(var x of catalog){
+	for(var y in x){		
+		for(var z in x[y]){				
+			for(var n in x[y][z]){
+				console.log(n + ': ' + x[y][z][n]);
+			}
+		}
+	}
+}
