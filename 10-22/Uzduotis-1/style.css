@@ -1,0 +1,91 @@
+.container{
+  padding-right: 500px;
+  padding-left: 500px;
+}
+header{
+  display: flex;
+  background-color: #55d6ec;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+.topSection{
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+}
+.right{
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+}
+.main{
+  display: inline-flex;
+  background-color: #f6c733;
+  justify-content: center;
+  color: white;
+  margin: 10px;
+  flex: 2;
+}
+.extra{
+  display: inline-flex;
+  background-color: #898989;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  flex: 1;
+}
+.left{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.hero{
+  display: inline-flex;
+  background-color: #d7c9e3;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  flex: 2;
+}
+aside {
+  display: inline-flex;
+  background-color: #9fc363;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  flex: 3;
+}
+.bottomSection{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.images{
+  display: inline-flex;
+  background-color: #2bb673;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  flex: 4;
+}
+.posts{
+  display: inline-flex;
+  background-color: #f3ccdf;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  flex: 1;
+}
+footer{
+  display: flex;
+  background-color: #fea501;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+}
