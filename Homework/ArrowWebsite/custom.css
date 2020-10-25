@@ -1,61 +1,60 @@
 /* Main CSS */
 #main{
-background-color: #fafcfe;
+	background-color: #fafcfe;
 }
 #start{
-background-image: url(img/hero1.png);
+	background-image: url(img/hero1.png);
+	text-align: center;
 }
 #services{
-text-align: center;
+	text-align: center;
 }
 #portfolio{
-background-image: url(img/hero2.png);
+	background-image: url(img/hero2.png);
 }
 #team{
-text-align: center;
+	text-align: center;
 }
 #offices{
-background-image: url(img/hero3.png);
-text-align: center;
+	background-image: url(img/hero3.png);
+	text-align: center;
 }
 #clients{
-text-align: center;
+	text-align: center;
 }
 #contact{
-background-image: url(img/hero4.png);
-text-align: center;
+	background-image: url(img/hero4.png);
+	text-align: center;
 }
 .projects{
-opacity: 0.6;
-background-repeat: no-repeat; 
-background-size: cover; 
+	opacity: 0.6;
+	background-repeat: no-repeat; 
+	background-size: cover; 
 }
 .section-padding{
-padding: 110px 15px;
+	padding: 110px 15px;
 }
 .section-header{
-min-height: 100%;
-min-height: 100vh; 
-display: flex;
-background-size: cover; 
-background-position: center;
+	min-height: 100%;
+	min-height: 100vh; 
+	color: white;
+	background-size: cover; 
+	background-position: center;
 }
 .section-background {
-min-height: 100%;
-min-height: 100vh; 
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-background-size: cover; 
-background-position: center;
+	min-height: 100%;
+	min-height: 100vh; 
+	display: flex;
+	color: white;
+	background-size: cover; 
+	background-position: center;
 }
 /* Hover Functionality */
 .hoverBox:hover .hoverItem {
-  opacity: 1;
+	opacity: 1;
 }
 .hoverBox:hover .hoverImg {
-  opacity: 0.4;
+	opacity: 0.4;
 }
 .hoverFilter{
 	background-color: #2980b9; 
@@ -69,35 +68,64 @@ background-position: center;
 	max-height: 199px;
 }
 .hoverBox {
-  position: relative;
+	position: relative;
 }
 .hoverItem {
-  opacity: 0;
-  padding: 0px;
-  margin: 0px;
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	opacity: 0;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 /* Random Styling */
+.btn-outline-light{
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+.spc-text{
+	display: inline; 
+	font-weight: bold;
+}
 .nav-link{
-color: white;
+	color: white;
+}
+.carousel-control-prev-icon {
+	background-image: url(img/left-arrow.png) !important;
+	height: 36px !important;
+}
+.carousel-control-next-icon {
+	background-image: url(img/right-arrow.png) !important;
+	height: 36px !important;
+}
+@media screen and (max-width: 600px){
+	.scale-down{
+		height: 55%;
+	}
 }
 /* Fonts */
 p{
-font-family: 'Raleway';	
-font-size: 13px;
+	font-family: 'Raleway';	
+	font-size: 13px;
 }
 h4{
-font-family: 'Raleway';
-font-weight: bold;
-font-size: 20px;
-color: #616161;
+	font-family: 'Raleway';
+	font-weight: bold;
+	font-size: 20px;
+	color: #616161;
+}
+h3{
+	font-family: 'Raleway';
+	font-weight: bold !important;
+	font-size: 18px !important;
 }
 h2{
-font-family: 'Raleway';
-font-weight: bold;
-font-size: 25px;
+	font-family: 'Raleway';
+	font-weight: bold;
+	font-size: 25px;
+}
+.grey-text{
+	color: #c5c6c8 !important;
 }

@@ -4,12 +4,84 @@
 		"selected_items":
 		[
 			[
-				"min",
-				"min-width\tproperty"
+				"s",
+				"space-between\talign-content"
+			],
+			[
+				"sp",
+				"space-between\talign-content"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"inl",
+				"inline\tdisplay"
 			],
 			[
 				"col",
-				"col-12"
+				"col-sm-8"
+			],
+			[
+				"ali",
+				"align-content-center"
+			],
+			[
+				"jus",
+				"justify-content-center"
+			],
+			[
+				"col-sm",
+				"col-sm-12"
+			],
+			[
+				"ju",
+				"justify-content-around"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"f",
+				"flex\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"D",
+				"DIV\tTag"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"no",
+				"no-gutters"
+			],
+			[
+				"img",
+				"img-fluid"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"min",
+				"min-width\tproperty"
 			],
 			[
 				"h",
@@ -18,10 +90,6 @@
 			[
 				"flex",
 				"flex-direction\tproperty"
-			],
-			[
-				"c",
-				"cover\tbackground-size"
 			],
 			[
 				"background",
@@ -48,22 +116,6 @@
 				"background-color\tproperty"
 			],
 			[
-				"ju",
-				"justify-content-center"
-			],
-			[
-				"jus",
-				"justify-content-around"
-			],
-			[
-				"di",
-				"div\tTag"
-			],
-			[
-				"s",
-				"src\tAttr"
-			],
-			[
 				"con",
 				"container"
 			],
@@ -74,10 +126,6 @@
 			[
 				"backgr",
 				"background-size\tproperty"
-			],
-			[
-				"pa",
-				"padding\tproperty"
 			],
 			[
 				"m",
@@ -92,14 +140,6 @@
 				"offset-1"
 			],
 			[
-				"col-sm",
-				"col-sm-3"
-			],
-			[
-				"a",
-				"auto\theight"
-			],
-			[
 				"im",
 				"img-fluid"
 			],
@@ -110,14 +150,6 @@
 			[
 				"se",
 				"section-background"
-			],
-			[
-				"padd",
-				"padding-right\tproperty"
-			],
-			[
-				"pad",
-				"padding-right\tproperty"
 			],
 			[
 				"co",
@@ -158,10 +190,6 @@
 			[
 				"b",
 				"bootstrap"
-			],
-			[
-				"f",
-				"flex-end\talign-content"
 			],
 			[
 				"fle",
@@ -287,7 +315,7 @@
 			"file": "custom.css",
 			"settings":
 			{
-				"buffer_size": 1583,
+				"buffer_size": 2153,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -296,7 +324,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14336,
+				"buffer_size": 19105,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -432,7 +460,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -446,6 +474,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"justify-content: center;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -472,15 +501,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1583,
+						"buffer_size": 2153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1328,
-								1170
+								2138,
+								2138
 							]
 						],
 						"settings":
@@ -488,7 +517,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 969.0,
+						"translation.y": 2166.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -500,15 +529,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14336,
+						"buffer_size": 19105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7832,
-								7832
+								19105,
+								0
 							]
 						],
 						"settings":
@@ -603,7 +632,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 237.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
