@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
 				"s",
 				"space-between\talign-content"
 			],
@@ -40,16 +48,8 @@
 				"justify-content-around"
 			],
 			[
-				"pa",
-				"padding-top\tproperty"
-			],
-			[
 				"f",
 				"flex\tproperty"
-			],
-			[
-				"padd",
-				"padding-top\tproperty"
 			],
 			[
 				"pad",
@@ -315,7 +315,7 @@
 			"file": "custom.css",
 			"settings":
 			{
-				"buffer_size": 2153,
+				"buffer_size": 2291,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -324,7 +324,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 19105,
+				"buffer_size": 19128,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -362,7 +362,8 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/cerka/Documents/GitHub/FrontEndClass/Homework/ArrowWebsite"
+		"/C/Users/cerka/Documents/GitHub/FrontEndClass/Homework/ArrowWebsite",
+		"/C/Users/cerka/Documents/GitHub/FrontEndClass/Homework/ArrowWebsite/js"
 	],
 	"file_history":
 	[
@@ -492,7 +493,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -501,15 +502,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2153,
+						"buffer_size": 2291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2138,
-								2138
+								2289,
+								2289
 							]
 						],
 						"settings":
@@ -517,10 +518,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2166.0,
+						"translation.y": 2147.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -529,15 +530,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19105,
+						"buffer_size": 19128,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19105,
-								0
+								0,
+								19128
 							]
 						],
 						"settings":
@@ -546,10 +547,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

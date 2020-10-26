@@ -100,11 +100,6 @@
 	background-image: url(img/right-arrow.png) !important;
 	height: 36px !important;
 }
-@media screen and (max-width: 600px){
-	.scale-down{
-		height: 55%;
-	}
-}
 /* Fonts */
 p{
 	font-family: 'Raleway';	
@@ -128,4 +123,15 @@ h2{
 }
 .grey-text{
 	color: #c5c6c8 !important;
+}
+/*@Media Rules */
+@media only screen and (max-width: 600px){
+	.nav-link{
+		font-size: 14px !important;
+		padding-left: 0.3rem !important;
+		padding-right: 0.3rem !important;
+	}
+	.scale-down{
+		height: 55%;
+	}
 }
