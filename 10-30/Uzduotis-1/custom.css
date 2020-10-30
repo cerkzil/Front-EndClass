@@ -1,0 +1,14 @@
+.mainDiv{
+    background-color: lightgray;
+}
+.locationOn{
+    background-color: lightgreen;
+}
+.locationOff{
+    background-color: lightcoral;
+}
+#icon{
+    vertical-align: middle;
+    font-size: 35px;
+    color:#17a2b8;
+}
