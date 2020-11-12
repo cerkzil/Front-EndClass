@@ -1,0 +1,11 @@
+li {
+    display: inline;
+}
+img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
+div {
+    margin-top: 12px;
+}
