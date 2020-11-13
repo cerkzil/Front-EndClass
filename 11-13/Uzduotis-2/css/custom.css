@@ -1,0 +1,24 @@
+.display-4{
+  padding: 20px 0px;
+}
+.flightForm{
+  padding: 20px;
+  outline-style: dashed;
+  outline-width: 5px;
+  background-color: aquamarine;
+}
+#ticket{
+  padding: 20px;
+  margin-top: 30px;
+  outline-style: dashed;
+  outline-width: 3px;
+  background-color: lightgrey;
+}
+.ticketInsides{
+  padding: 20px;
+  background-color: lightcyan;
+}
+.priceInsides{
+  padding: 20px;
+  background-color: lightpink;
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>KITM Airlines</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <h1 class="display-4">Flight Register</h1>
+      <div class="w-100"></div>
+
+      <form class="flightForm">
+        <div class="form-group form-inline">
+          <label for="name" class="mr-sm-2">Firstname:</label>
+          <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Enter firstname" id="name">
+          <label for="surname" class="mr-sm-2">Lastname:</label>
+          <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Enter lastname" id="surname">
+          <label for="nationalId" class="mr-sm-2">National ID:</label>
+          <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter national Id" id="nationalId">
+        </div>
+        <div class="form-group form-inline" style="flex-wrap: nowrap">
+          <label for="flightFrom" class="mr-sm-2">Flight From:</label>
+          <select class="form-control flightList mb-2 mr-sm-2" id="flightFrom">
+          </select>
+          <label for="flightTo" class="mr-sm-2">Flight To:</label>
+          <select class="form-control flightList mb-2 mr-sm-2" id="flightTo">
+          </select>
+          <label for="baggage" class="mr-sm-2">Baggage:</label>
+          <input type="number" class="form-control mb-2 mr-sm-2 col-1" placeholder="KG" id="baggage">
+          <label for="price" class="mr-sm-2">Price:</label>
+          <input type="number" class="form-control mb-2 mr-sm-2 col-1" placeholder="Euros" id="price">
+        </div>
+        <button type="submit" id="btn1" class="btn btn-primary">Print</button>
+        <button type="button" id="btn2" class="btn btn-secondary">Print Saved Ticket</button>
+      </form>
+    </div>
+  </div>
+
+  <div id='ticket' style="display: none;" class="container">
+    <div class="row">
+      <p id='ticketFlightId' class="h4">Ticket: </p>
+      <div class="container">
+        <div class="row">
+          <div class="col ticketInsides">
+              <p id='ticketName' class="h6">Name:</p>
+              <p id='ticketSurname' class="h6">Surname:</p>
+              <p id='ticketNationalId' class="h6">NationalID:</p>
+          </div>
+          <div class="col ticketInsides">
+            <p id='ticketFrom' class="h6">From:</p>
+            <p id='ticketTo' class="h6">To:</p>
+            <p id='ticketBaggage' class="h6">Baggage:</p>
+          </div>
+          <div class="col priceInsides">
+              <p id='ticketPrice' class="h6">Flight Price:</p>
+              <p id='ticketExtraCharges' class="h6">Extra Charges:</p>
+              <p id='ticketFinalPrice' class="h6">Final Price:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script src="js/app.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
